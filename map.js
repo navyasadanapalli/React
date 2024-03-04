@@ -45,36 +45,39 @@
 
 // // output:[undefined,undefined,undefined]
 
-const array=[
-    {
-    name:"10kcoders1",
-    location:"office1",
-    },
-    {
-        name:"10kcoders2",
-        location:"office2",
-    },
-    {
-        name:"10kcoders3",
-        location:"office3",
-    },
-]
+// const array=[
+//     {
+//     name:"10kcoders1",
+//     location:"office1",
+//     },
+//     {
+//         name:"10kcoders2",
+//         location:"office2",
+//     },
+//     {
+//         name:"10kcoders3",
+//         location:"office3",
+//     },
+// ]
 
-function iteration(array){
-    let newArry=array.map(eachValue=>{return eachValue.name})
-    console.log(newArry);
-}
-iteration(array)
+// function iteration(array){
+//     let newArry=array.map(eachValue=>{return eachValue.name})
+//     console.log(newArry);
+// }
+// iteration(array)
 
-// output: ['10kcoders1', '10kcoders2', '10kcoders3']
+// // output: ['10kcoders1', '10kcoders2', '10kcoders3']
+
+// //-----------------------------------------------------------------------------------
 
 
-function iteration(array){
-    let newArry=array.map(eachValue=>{return eachValue.name}).reverse()
-    console.log(newArry);
-}
-iteration(array)
-//output:['10kcoders3', '10kcoders2', '10kcoders1']
+// function iteration(array){
+//     let newArry=array.map(eachValue=>{return eachValue.name}).reverse()
+//     console.log(newArry);
+// }
+// iteration(array)
+
+// //output:['10kcoders3', '10kcoders2', '10kcoders1']
 
 
 

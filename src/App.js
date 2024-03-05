@@ -1,15 +1,24 @@
-import ConditionalRender from "./components/functional/exports-imports/conditional-render";
-import Navya,{ComponentB as Kavya,ComponentC} from "./components/functional/exports-imports/exports";
+// import ConditionalRender from "./components/functional/exports-imports/conditional-render";
+// import Navya,{ComponentB as Kavya,ComponentC} from "./components/functional/exports-imports/exports";
+
+import TodoList from "./components/functional/styles";
+import ContentPage from "./components/functional/styles/bootstrap/content";
+
+
 
 
 function App() {
   return (
    <div>
-    <Navya/>
+    {/* <Navya/>
     <Kavya/>
     <ComponentC/>
 
-    <ConditionalRender/>
+    <ConditionalRender/>  */}
+
+    <TodoList/>
+
+    <ContentPage/>
     </div>
   );
 }

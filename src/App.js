@@ -1,8 +1,11 @@
 // import ConditionalRender from "./components/functional/exports-imports/conditional-render";
 // import Navya,{ComponentB as Kavya,ComponentC} from "./components/functional/exports-imports/exports";
 
+import { AccordionItem } from "react-bootstrap";
 import TodoList from "./components/functional/styles";
+import AccordionComponent from "./components/functional/styles/ReactBootstrap/accordion";
 import ContentPage from "./components/functional/styles/bootstrap/content";
+import Corousel from "./components/functional/styles/ReactBootstrap/corousel";
 
 
 
@@ -15,10 +18,15 @@ function App() {
     <ComponentC/>
 
     <ConditionalRender/>  */}
-
+{/* 
     <TodoList/>
 
-    <ContentPage/>
+    <ContentPage/> */}
+
+    {/* <AccordionComponent/> */}
+
+    <Corousel/>
+
     </div>
   );
 }

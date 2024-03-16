@@ -1,8 +1,11 @@
 
 
-const ImageComponent = ()=>{
+const ImageComponent = (prop)=>{
+    const{imageurl}=prop
+
+    // console.log(imageurl,"this is my image")
     return(
-        <img src="https://t4.ftcdn.net/jpg/03/32/75/39/360_F_332753934_tBacXEgxnVplFBRyKbCif49jh0Wz89ns.jpg" width={130} height={150}></img>
+        <img src={imageurl} width={"100%"} height={400}></img>
     );
 }
 export default ImageComponent

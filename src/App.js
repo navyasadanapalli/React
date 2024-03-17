@@ -10,33 +10,28 @@ import Modals from "./components/functional/styles/ReactBootstrap/modals";
 import NavBar from "./components/functional/styles/ReactBootstrap/navbar";
 import Toasts from "./components/functional/styles/ReactBootstrap/toasts";
 import Tables from "./components/functional/styles/ReactBootstrap/tables";
-
+import Profile from "./components/functional/props/profile";
 
 
 
 function App() {
   return (
-   <div>
-    {/* <Navya/>
-    <Kavya/>
-    <ComponentC/>
-
-    <ConditionalRender/>  */}
-{/* 
-    <TodoList/>
-
-    <ContentPage/> */}
-
-    {/* <AccordionComponent/> */}
-
-    <NavBar/>
-    <Corousel/>
-    <Tables/>   
-    <Toasts/>
-    <Modals/>
-
+    <div>
+      <Wrapper bgcolor="red">
+        <Profile />
+      </Wrapper>
     </div>
   );
 }
 
+
 export default App;
+
+function Wrapper(prop){
+  const{bgcolor,children}=prop
+  return(
+    <div style={{flex:1, backgroundColor:bgcolor}}>
+      {children}
+    </div>
+  )
+}

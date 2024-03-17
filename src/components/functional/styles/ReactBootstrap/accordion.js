@@ -274,6 +274,7 @@ const AccordionItem=(prop)=>{
     <Accordion.Body>
 {prop.data.title}
 
+
     </Accordion.Body>
   </Accordion.Item>
   )

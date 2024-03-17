@@ -8,4 +8,4 @@ const ImageComponent = (prop)=>{
         <img src={imageurl} width={"100%"} height={400}></img>
     );
 }
-export default ImageComponent
+export default ImageComponent;

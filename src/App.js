@@ -1,6 +1,7 @@
 // import ConditionalRender from "./components/functional/exports-imports/conditional-render";
 // import Navya,{ComponentB as Kavya,ComponentC} from "./components/functional/exports-imports/exports";
 
+import Circles from "./components/functional/axious/circle";
 import UserData from "./components/functional/axious/users";
 import Car from "./components/functional/states/counter";
 import Counter from "./components/functional/states/counter";
@@ -29,7 +30,8 @@ function App() {
 
 
  {/* <Counter></Counter> */}
- <UserData/>
+ {/* <UserData/> */}
+ <Circles/>
     </div>
 
    

@@ -3,6 +3,7 @@ import ImageComponent from "../../img/image-component"
 
 const Card=(prop)=>{
   const{title,category,image  }=prop.item
+  console.log(prop,"card")
     return(
         <div className="container mt-3">
 

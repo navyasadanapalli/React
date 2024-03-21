@@ -1,12 +1,12 @@
 
 
 
-const TextComponent=(prop)=>{
-    const {title,children}=prop
-    console.log(prop,"props")
+const TextComponent=(props)=>{
+    const {title,children}=props
+    console.log(props,"props")
     return(
         <div>
-<h3>{children}</h3>
+<h3>{title}</h3>
         </div>
         
     );

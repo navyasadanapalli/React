@@ -3,6 +3,7 @@
 
 import Circles from "./components/functional/axious/circle";
 import UserData from "./components/functional/axious/users";
+import MountingPhase from "./components/functional/life-cycle/mountingPhase";
 import Car from "./components/functional/states/counter";
 import Counter from "./components/functional/states/counter";
 
@@ -31,7 +32,8 @@ function App() {
 
  {/* <Counter></Counter> */}
  {/* <UserData/> */}
- <Circles/>
+ {/* <Circles/> */}
+<MountingPhase/>
     </div>
 
    

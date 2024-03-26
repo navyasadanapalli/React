@@ -20,6 +20,10 @@ import Profile from "./components/functional/props/profile";
 import UpdatingPhase from "./components/functional/life-cycle/updatingPhase";
 import Parent from "./components/functional/life-cycle/unmountingPhase";
 import ParentComponent from "./components/functional/purecomponent/purecomponent";
+import UseStateExample1 from "./components/functional/hooks/usestateexample1";
+import UseStateExample2 from "./components/functional/hooks/usestateexample2";
+import UseStateExample3 from "./components/functional/hooks/usestateexample3";
+
 
 
 
@@ -40,8 +44,10 @@ function App() {
 {/* <MountingPhase favcolor="blue"/>
 <UpdatingPhase/> */}
 {/* <Parent/> */}
-<ParentComponent/>
-
+{/* <ParentComponent/> */}
+{/* <UseStateExample1/> */}
+{/* <UseStateExample2/> */}
+<UseStateExample3/>
 
 </div>
 

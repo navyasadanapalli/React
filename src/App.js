@@ -19,6 +19,7 @@ import Tables from "./components/functional/styles/ReactBootstrap/tables";
 import Profile from "./components/functional/props/profile";
 import UpdatingPhase from "./components/functional/life-cycle/updatingPhase";
 import Parent from "./components/functional/life-cycle/unmountingPhase";
+import ParentComponent from "./components/functional/purecomponent/purecomponent";
 
 
 
@@ -38,7 +39,8 @@ function App() {
  {/* <Circles/> */}
 {/* <MountingPhase favcolor="blue"/>
 <UpdatingPhase/> */}
-<Parent/>
+{/* <Parent/> */}
+<ParentComponent/>
 
 
 </div>

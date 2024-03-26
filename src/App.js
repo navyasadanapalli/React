@@ -23,6 +23,8 @@ import ParentComponent from "./components/functional/purecomponent/purecomponent
 import UseStateExample1 from "./components/functional/hooks/usestateexample1";
 import UseStateExample2 from "./components/functional/hooks/usestateexample2";
 import UseStateExample3 from "./components/functional/hooks/usestateexample3";
+import UncontrolledCompo from "./components/functional/forms/uncontrolled";
+import Controlled from "./components/functional/forms/controlled";
 
 
 
@@ -47,7 +49,10 @@ function App() {
 {/* <ParentComponent/> */}
 {/* <UseStateExample1/> */}
 {/* <UseStateExample2/> */}
-<UseStateExample3/>
+{/* <UseStateExample3/> */}
+{/* <UncontrolledCompo/> */}
+<Controlled/>
+
 
 </div>
 

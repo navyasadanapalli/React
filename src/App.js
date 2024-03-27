@@ -25,6 +25,9 @@ import UseStateExample2 from "./components/functional/hooks/usestateexample2";
 import UseStateExample3 from "./components/functional/hooks/usestateexample3";
 import UncontrolledCompo from "./components/functional/forms/uncontrolled";
 import Controlled from "./components/functional/forms/controlled";
+import UseExample1 from "./components/functional/hooks/useEffect/useeffect1";
+import UseEffectex2 from "./components/functional/hooks/useEffect/useeffect2";
+import UseEffectEx3 from "./components/functional/hooks/useEffect/useeffect3";
 
 
 
@@ -51,7 +54,10 @@ function App() {
 {/* <UseStateExample2/> */}
 {/* <UseStateExample3/> */}
 {/* <UncontrolledCompo/> */}
-<Controlled/>
+{/* <Controlled/> */}
+{/* <UseExample1/> */}
+{/* <UseEffectex2/> */}
+<UseEffectEx3/>
 
 
 </div>
